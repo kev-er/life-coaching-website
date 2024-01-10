@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function MyPortfolio() {
   return (
@@ -8,7 +9,7 @@ export default function MyPortfolio() {
           <p className="sub--title"></p>
           <h2 className="section--heading">Resources</h2>
         </div>
-           </div>
+      </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">

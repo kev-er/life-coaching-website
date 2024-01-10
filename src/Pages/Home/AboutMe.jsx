@@ -1,3 +1,5 @@
+import { Link as ScrollLink } from "react-scroll";
+
 export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
@@ -9,28 +11,23 @@ export default function AboutMe() {
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
             Hi, I’m Mike. I am a Pastor and a Coach, and myself and my wife Abi
-            live in the beautiful Surrey, England. Over the years, going through
-            my own journey of personal transformation (A journey that never
-            ends!) I have grown incredibly passionate about helping people
-            become who they were designed to be.
+            live in the beautiful Surrey, England. Through my experience working
+            with countless individuals in pastoring, coaching, mentoring and
+            personal training, and going through my own journey of personal
+            transformation, I have grown incredibly passionate about helping
+            people become who they were designed to be. Physically, emotionally
+            & spiritually healthy.
           </p>
           <br />
           <p className="hero--section-description">
-            Throughout my life I've journeyed through trauma, unhelpful
-            mindsets, bad habits, facing my greatest fears, and journeying
-            through broken relationships to get to a place of thriving abundant
-            life. I want to help you in your journey to have the same story. To
-            move from surviving to thriving. To become you, you were created to
-            be.
+            I want to help you in your journey. To move from surviving to
+            thriving. To become you, you were created to be.
           </p>
         </div>
-        <button className="btn btn-primary hero--bnt about--bnt">
-          Get In Touch
-        </button>
       </div>
-      <a className="scroll--down">
-        <span className="scroll--icon">&#8681;</span>
-      </a>
+      <ScrollLink to="testimonial" smooth duration={500} className="scroll-bnt">
+        <div class="arrow bounce"></div>
+      </ScrollLink>
     </section>
   );
 }

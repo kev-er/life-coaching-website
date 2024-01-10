@@ -2,23 +2,23 @@
   "skills": [
     {
       "id": "1",
-      "title": "Title one",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Develop self awareness ",
+      "description": "90% of all transformation is in our awareness. It is impossible to change something we are not aware of."
     },
     {
       "id": "2",
-      "title": "Title two",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Get your power back",
+      "description": "We are the only things in life we can control. Take ownership of your life. Ditch the victim mindset and embrace your God given power."
     },
     {
       "id": "3",
-      "title": "Title three",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Overcome obstacles",
+      "description": "There is a solution to every problem in life. Get creative around how you can overcome the obstacles your facing."
     },
     {
       "id": "4",
-      "title": "Title four",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Get forward momentum ",
+      "description": "The tip of the iceberg, what everyone sees – action. Take your awareness and ideas and charge into momentum in life again."
     }
   ],
   "portfolio": [
@@ -29,7 +29,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique Lorem ipsum dolor sit amet",
       "link": "Coming soon"
     },
-       {
+    {
       "id": "3",
       "src": "./img/life-cards.png",
       "title": "Life Cards",
@@ -41,22 +41,22 @@
     {
       "id": "1",
       "count": "5",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-      "author_name": "Dianne Smith",
+      "description": "“Through our coaching sessions, Mike has helped me to shift my perspective to see from a different lens, unlocking new pathways and stepping stones to achieving my goals. Mike strikes the perfect balance between encouraging and challenging and giving space to realising your own potential.”",
+      "author_name": "Nathan",
       "author_designation": ""
     },
     {
       "id": "2",
-      "count": "5", 
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-      "author_name": "Kristian Watson",
+      "count": "5",
+      "description": "I've known Mike for a while now. 3 years. To articulate a synthesized statement of the value I have found and the subsequent trajectory-setting impact our relationship has caused on my life is difficult. But Mike is a man who holds integrity. A deep care and a deep love. Holding passion that is met with gentleness. Possessing a wisdom that has been forged and gleamed from experience and reflection. Quicker to listen than to speak. One whose probing questions are provocative. Unfurling the hidden core beliefs one has operated from and with gentle yet assertive authority speaks out a truer narrative over my life. I have had tendencies to mix up my value with my performance - i still do. However Mikes involvement has been monumental and a real grace. In asking provocative questions Mike has partnered with me - in a dignifying way - to explore the why. Yet it is has not been just an excavation where one is left simply exposed and vulnerable but has been accompanied with offered guidance that acts as a handrails into a fuller and freer life. I'm learning. I'm growing. I'm discovering the why's. I'm discovering helpful tools. I'm grateful for the role Mike has played and continues to in this part of my journey.",
+      "author_name": "Aaron",
       "author_designation": ""
     },
     {
       "id": "3",
-      "count": "5", 
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-      "author_name": "Pete Murphy",
+      "count": "5",
+      "description": "“Through insightful questioning, Mike has helped me identify areas of my life that were holding me back from living out my full potential; equipping me with tools to overcome barriers. Inviting the Holy Spirit into coaching discussions has been powerful. It’s allowed God to reveal new perspectives on situations and lead me to conclusions I wouldn’t have been able to reach on my own.”",
+      "author_name": "Georgia",
       "author_designation": ""
     }
   ]
