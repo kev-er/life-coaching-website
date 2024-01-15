@@ -8,7 +8,7 @@ export default function VideoSection() {
           class="video--container"
           width="740"
           height="515"
-          src="https://www.youtube.com/watch?v=OVyxqxlYeHs"
+          src="https://www.youtube.com/embed/OVyxqxlYeHs"
         ></iframe>
       </div>
       <ScrollLink to="Contact" smooth duration={500} className="scroll-bnt">
