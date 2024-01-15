@@ -17,7 +17,7 @@ export default function HeroSection() {
           you were made to be
         </h1>
         <p className="hero--section-description hero--description">
-          Coaching. Writing. Resourcing
+          Emotionally, spiritually, physically healthy
         </p>
         <button href="#Video--about" className="btn btn-primary hero--bnt">
           ABOUT COACHING

@@ -5,10 +5,10 @@ export default function VideoSection() {
     <section id="Video--about" className="video--section">
       <div>
         <iframe
-          className="video--container"
+          class="video--container"
           width="740"
           height="515"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          src="https://www.youtube.com/watch?v=OVyxqxlYeHs"
         ></iframe>
       </div>
       <ScrollLink to="Contact" smooth duration={500} className="scroll-bnt">

@@ -26,14 +26,14 @@
       "id": "1",
       "src": "./img/writing.png",
       "title": "My Blog",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique Lorem ipsum dolor sit amet",
+      "description": "Collections of blogs designed to help you to thriv",
       "link": "Coming soon"
     },
     {
       "id": "3",
       "src": "./img/life-cards.png",
       "title": "Life Cards",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Unlock the power of your attention with life cards",
       "link": "Cominig soon"
     }
   ],
@@ -48,15 +48,15 @@
     {
       "id": "2",
       "count": "5",
-      "description": "I've known Mike for a while now. 3 years. To articulate a synthesized statement of the value I have found and the subsequent trajectory-setting impact our relationship has caused on my life is difficult. But Mike is a man who holds integrity. A deep care and a deep love. Holding passion that is met with gentleness. Possessing a wisdom that has been forged and gleamed from experience and reflection. Quicker to listen than to speak. One whose probing questions are provocative. Unfurling the hidden core beliefs one has operated from and with gentle yet assertive authority speaks out a truer narrative over my life. I have had tendencies to mix up my value with my performance - i still do. However Mikes involvement has been monumental and a real grace. In asking provocative questions Mike has partnered with me - in a dignifying way - to explore the why. Yet it is has not been just an excavation where one is left simply exposed and vulnerable but has been accompanied with offered guidance that acts as a handrails into a fuller and freer life. I'm learning. I'm growing. I'm discovering the why's. I'm discovering helpful tools. I'm grateful for the role Mike has played and continues to in this part of my journey.",
-      "author_name": "Aaron",
+      "description": "“Through insightful questioning, Mike has helped me identify areas of my life that were holding me back from living out my full potential; equipping me with tools to overcome barriers. Inviting the Holy Spirit into coaching discussions has been powerful. It’s allowed God to reveal new perspectives on situations and lead me to conclusions I wouldn’t have been able to reach on my own.”",
+      "author_name": "Georgia",
       "author_designation": ""
     },
     {
       "id": "3",
       "count": "5",
-      "description": "“Through insightful questioning, Mike has helped me identify areas of my life that were holding me back from living out my full potential; equipping me with tools to overcome barriers. Inviting the Holy Spirit into coaching discussions has been powerful. It’s allowed God to reveal new perspectives on situations and lead me to conclusions I wouldn’t have been able to reach on my own.”",
-      "author_name": "Georgia",
+      "description": "I've known Mike for a while now. 3 years. To articulate a synthesized statement of the value I have found and the subsequent trajectory-setting impact our relationship has caused on my life is difficult. But Mike is a man who holds integrity. A deep care and a deep love. Holding passion that is met with gentleness. Possessing a wisdom that has been forged and gleamed from experience and reflection. Quicker to listen than to speak. One whose probing questions are provocative. Unfurling the hidden core beliefs one has operated from and with gentle yet assertive authority speaks out a truer narrative over my life. I have had tendencies to mix up my value with my performance - i still do. However Mikes involvement has been monumental and a real grace. In asking provocative questions Mike has partnered with me - in a dignifying way - to explore the why. Yet it is has not been just an excavation where one is left simply exposed and vulnerable but has been accompanied with offered guidance that acts as a handrails into a fuller and freer life. I'm learning. I'm growing. I'm discovering the why's. I'm discovering helpful tools. I'm grateful for the role Mike has played and continues to in this part of my journey.",
+      "author_name": "Aaron",
       "author_designation": ""
     }
   ]
