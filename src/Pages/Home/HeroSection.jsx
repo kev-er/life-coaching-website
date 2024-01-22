@@ -19,15 +19,7 @@ export default function HeroSection() {
         <p className="hero--section-description hero--description">
           Emotionally, spiritually, physically healthy
         </p>
-        <button href="#Video--about" className="btn btn-primary hero--bnt">
-          ABOUT COACHING
-        </button>
       </div>
-      <ScrollLink to="Contact" smooth duration={500} className="">
-        <button href="#Video--about" className="btn btn-primary hero--bnt">
-          ABOUT COACHING
-        </button>
-      </ScrollLink>
     </section>
   );
 }

@@ -51,21 +51,21 @@ p {
   margin: 10px;
 }
 .btn-outline-primary:hover {
-  color: var(--white);
-  background-color: var(--primary);
+  color: black;
+  background-color: #d2d9b8;
 }
 .btn-primary {
-  color: var(--white);
+  color: #d2d9b8;
   background-color: #647362;
   border: none;
   margin: 20px 0 20px 0;
 }
 .btn-primary:hover {
-  color: var(--primary);
-  background-color: var(--white);
+  color: black;
+  background-color: #d2d9b8;
 }
 .btn-github {
-  color: var(--white);
+  color: #d2d9b8;
   background-color: var(--github);
   border: var(--github);
   display: flex;
@@ -76,8 +76,8 @@ p {
   gap: 16px;
 }
 .btn-github:hover {
-  color: var(--github);
-  background-color: var(--white);
+  color: #ffff;
+  background-color: #d2d9b8;
 }
 /* Global CSS Ends */
 
@@ -459,7 +459,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 60%;
 }
 
 /* My Portfolio Starts */
