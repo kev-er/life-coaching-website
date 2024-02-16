@@ -25,7 +25,7 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <ScrollLink to="testimonial" smooth duration={500} className="scroll-bnt">
+      <ScrollLink to="MyPortfolio" smooth duration={500} className="scroll-bnt">
         <div class="arrow bounce">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -50,10 +50,10 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="message" className="contact--label">
+        <label htmlFor="message" className="contact--label contact--box">
           <span className="text-md">Message</span>
           <textarea
-            className="contact--input text-md"
+            className="contact--input text-md contact--box"
             id="message"
             rows="8"
             placeholder="Type your message..."

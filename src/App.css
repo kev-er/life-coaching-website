@@ -1,5 +1,11 @@
 /* Global CSS */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", "Roboto", sans-serif;
@@ -101,6 +107,7 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
+  padding: 20px;
 }
 
 /* Pragraphs text large medium small */
@@ -161,8 +168,7 @@ h2 {
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 35px;
-  left: 40px;
-  right: 40px;
+  left: 15%;
   border-radius: 60px 60px 60px 60px;
   z-index: 2222;
 }
@@ -255,6 +261,7 @@ h2 {
 }
 .content--box--rounded {
   border-radius: 30px;
+  padding: 20px;
 }
 
 .hero--section--content--box > button {
@@ -314,6 +321,7 @@ h2 {
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
+  padding: 75px;
 }
 
 .skills--section--container {
@@ -321,6 +329,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
+  padding: 100px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -330,10 +339,10 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  height: 350px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background: #d2d9b8;
-  min-height: 250px;
+  background: #d2d9b8; 
 }
 
 .skills--section--card:hover {
@@ -371,10 +380,10 @@ h2 {
 }
 .skills--section--description {
   color: var(--black);
-  font-size: 21.3px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 /* Skills Style Ends */
@@ -449,6 +458,15 @@ h2 {
   bottom: 110%;
 }
 
+.skills--section--containere--arrow {
+  position: relative;
+  left: 50%;
+}
+  .containere--arrow {
+  position: relative;
+  left: 50%;
+}
+
 /* Video section */
 .video--section {
 }
@@ -467,7 +485,7 @@ h2 {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 80px;
 }
 .portfolio--container-box {
@@ -506,10 +524,9 @@ h2 {
   gap: 32px;
   flex: 1 0 0;
   background: #fff;
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+
 }
 .portfolio--section--card--content {
   display: flex;
@@ -546,6 +563,7 @@ h2 {
 }
 .sections--heading {
   color: var(--heading-color);
+  padding: 75px;
 }
 .testimonial--section--card {
   display: flex;
@@ -553,7 +571,6 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 42.6px;
-  flex: 1 0 0;
   border-radius: 30px;
   background-color: #d2d9b8;
 }
@@ -589,21 +606,20 @@ h2 {
   border-radius: 30px;
   gap: 34px;
   height: 100%;
-  margin: 50px;
+  margin: 150px;
 }
 .contact--form--container {
-  display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
   width: 40%;
   row-gap: 32px;
+  box-sizing: border-box;
 }
 .container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   column-gap: 32px;
   row-gap: 32px;
-  margin: 10px;
 }
 .contact--label {
   display: flex;
@@ -622,6 +638,7 @@ h2 {
   border-radius: 8px;
   border: none;
   background: #e5e5e3;
+  resize: vertical;
 }
 
 select {
@@ -740,7 +757,7 @@ input[type="checkbox"] {
 
   .hero--section--title {
     font-size: 60px;
-    line-height: 70px;
+    line-height: 55px;
     margin-top: 50%;
     text-align: center;
   }
@@ -752,13 +769,14 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 1600px) {
   .hero--section--title {
-    font-size: 55px;
+    font-size: 50px;
     margin: 50% 0 0 0;
     padding: 10px;
   }
   .skills--section--heading {
     font-size: 54px;
     line-height: 70px;
+    padding: 75px;
   }
   .skills--section--container {
     gap: 16px;
@@ -776,7 +794,6 @@ input[type="checkbox"] {
   .skills--section--description {
     font-size: 14px;
     line-height: 27px;
-    padding: 10px;
   }
 }
 
@@ -865,6 +882,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 0 10px;
   }
   .footer--social--icon > ul,
   .footer--items > ul {
@@ -1022,7 +1040,8 @@ input[type="checkbox"] {
     width: 100%;
   }
   .contact--section {
-    width: 60%;
+    width: 75%;
+    margin: 13%; 
   }
 
   .contact--label {
@@ -1035,8 +1054,14 @@ input[type="checkbox"] {
   .contact--form--btn {
     font-size: 12px;
     position: relative;
-    right: 45px;
   }
+
+  .contact--box {
+    min-width: 210px;
+    width: 95%;
+    margin: 2%;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
