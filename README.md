@@ -37,7 +37,7 @@ Skill Growth: This project reinforced my knowledge of HTML for structuring conte
 
 Compared to projects I built four months ago, I noticed a significant improvement in efficiency and development speed.
 
-
+&nbsp;
 &nbsp;
 🔮 Future Features
 
